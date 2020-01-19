@@ -7,7 +7,7 @@
 
 <div>
   <label>Use letters</label>
-  <input type="checkbox" />
+  <input (change)="onChangeUseLetters()" type="checkbox" />
 </div>
 
 <div>
@@ -28,6 +28,3 @@
   <label>Your password</label>
   <input [value]="password" />
 </div>
-
-{{ password }}
-{{ getName() }}

@@ -12,4 +12,8 @@ export class AppComponent {
     this.password = 'Teste';
   }
 
+  getName() {
+    return `Paulo`;
+  }
+
 }
